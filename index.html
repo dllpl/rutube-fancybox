@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <a href="https://www.youtube.com/watch?v=Z6WqKS9jXJk" data-fancybox>
+        <p>Youtube video #1</p>
+      </a>
+      <a href="https://vimeo.com/653976088" data-fancybox>
+        <p>Vimeo video #2</p>
+      </a>
+      <a
+        href="https://rutube.ru/video/18bff1c547bc671324c216513c9d435c/?r=wd"
+        data-fancybox
+      >
+        <p>Rutube video #3</p>
+      </a>
+      <a
+        href="https://rutube.ru/video/239c64b647b5d5ce1c97f7f401810c95"
+        data-fancybox
+      >
+        <p>Rutube video #4</p>
+      </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.fancybox.min.js"></script>
+    <script>
+      $('[data-fancybox]').fancybox({});
+    </script>
+  </body>
+</html>
